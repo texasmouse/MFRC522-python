@@ -3,13 +3,11 @@ MFRC522-python
 A small class to interface with the NFC reader Module MFRC522 on the Raspberry Pi.
 This is a Python port of the example code for the NFC module MF522-AN.
 
-**Important notice:** This library has not being actively updated in almost four years.
-It might not work as intended on more recent Raspberry Pi devices. You might want to 
-take a look to the open pull-requests and forks to see other implementations and bug-fixes.
+**Important notice:** This library has been confirmed to work with the Pi Zero W, Pi 3 B +, and Pi 3 A+. It uses an updated version of [SPI-Py](https://github.com/naleefer/SPI-Py) that fixes a memory leak in the original SPI-Py code. The fix modifies the spi interface slightly, and this repository reflects that change. Additional changes are in progress to improve performance.
 
 ## Requirements
 This code requires you to have SPI-Py installed from the following repository:
-https://github.com/lthiery/SPI-Py
+[https://github.com/naleefer/SPI-Py](https://github.com/naleefer/SPI-Py)
 
 ## Examples
 This repository includes a couple of examples showing how to read, write, and dump data from a chip. They are thoroughly commented, and should be easy to understand.
