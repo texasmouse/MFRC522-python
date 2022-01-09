@@ -3,11 +3,11 @@ MFRC522-python
 A small class to interface with the NFC reader Module MFRC522 on the Raspberry Pi.
 This is a Python port of the example code for the NFC module MF522-AN.
 
+**Important notice:** This library has been confirmed to work with the Pi Zero W, Pi 3 B +, and Pi 3 A+. It uses an updated version of [SPI-Py](https://github.com/naleefer/SPI-Py) that fixes a memory leak in the original SPI-Py code. The fix modifies the spi interface slightly, and this repository reflects that change. Additional changes are in progress to improve performance.
+
 ## Fork Changes
 This is an updated version of the nafleefer MFRC522 build.  It has been slightly latered to run in GPIO.BCM mode (as opposed to GPIO.BOARD).  This was necessary to support the MagicBand Reader in my repository.
 Additionally, I have updated Write.py to work with python3 (fixed print statements).  I have also removed the original Read.py and replaced it with MyReader.py.
-
-**Important notice:** This library has been confirmed to work with the Pi Zero W, Pi 3 B +, and Pi 3 A+. It uses an updated version of [SPI-Py](https://github.com/naleefer/SPI-Py) that fixes a memory leak in the original SPI-Py code. The fix modifies the spi interface slightly, and this repository reflects that change. Additional changes are in progress to improve performance.
 
 ## Requirements
 This code requires you to have SPI-Py installed from the following repository:
