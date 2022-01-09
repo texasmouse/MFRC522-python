@@ -70,4 +70,3 @@ if __name__ == "__main__":
         if oldMBNumber != MBNumber:
             oldMBNumber = MBNumber
             print(":::::",MBNumber,":::::")
-
