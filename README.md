@@ -21,7 +21,7 @@ You can use [this](http://i.imgur.com/y7Fnvhq.png) image for reference.
 
 | Name | Pin # | Pin name   |
 |:------:|:-------:|:------------:|
-| NSS  | 24    | GPIO8      |
+| NSS or SDA  | 24    | GPIO8      |
 | SCK  | 23    | GPIO11     |
 | MOSI | 19    | GPIO10     |
 | MISO | 21    | GPIO9      |
