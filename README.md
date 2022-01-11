@@ -25,7 +25,7 @@ You can use [this](http://i.imgur.com/y7Fnvhq.png) image for reference.
 | SCK  | 23    | GPIO11     |
 | MOSI | 19    | GPIO10     |
 | MISO | 21    | GPIO9      |
-| GND  | Any   | Any Ground |  I suggest pin 6
+| GND  | Any GND (6)  | Any Ground |
 | RST  | 22    | GPIO25     |
 | 3.3V | 1     | 3V3        |
 
